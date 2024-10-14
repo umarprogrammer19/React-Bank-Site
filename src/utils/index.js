@@ -2,7 +2,7 @@ import { person1, person2, person3 } from "../../src/assets";
 
 export const navLinks = [
   {
-    id: "/",
+    id: "",
     title: "Home",
   },
   {
