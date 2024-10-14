@@ -1,5 +1,9 @@
+import Testimonials from "../components/Testimonials";
+
 export default function Clients() {
     return (
-        <h1>Clients</h1>
+        <div className="container px-5 md:px-10 mx-auto">
+            <Testimonials />
+        </div>
     )
 }
