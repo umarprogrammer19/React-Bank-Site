@@ -1,6 +1,5 @@
 import Bill from "./components/Bill";
 import Business from "./components/Business";
-import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import PaymentMethod from "./components/PaymentMethod";
 import ScrollTop from "./components/ScrollTop";
@@ -24,7 +23,6 @@ const App = () => {
         <PaymentMethod />
         <Testimonials />
         <ServiceCard />
-        <Footer />
       </div>
     </div>
   );
