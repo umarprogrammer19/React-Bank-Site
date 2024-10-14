@@ -4,7 +4,7 @@ const CommonButton = ({ btnText }) => {
       type="button"
       className="p-4 sm:p-5 rounded-lg w-fit capitalize bg-blue-gradient text-primary"
     >
-      <a href="https://naseemkhan.vercel.app/" target="_blank">
+      <a>
         {btnText}
       </a>
     </button>

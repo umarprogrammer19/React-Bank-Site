@@ -1,5 +1,9 @@
+import Business from "../components/Business";
+
 export default function Features() {
     return (
-        <h1>Features</h1>
+        <div className="container px-5 md:px-10 mx-auto">
+            <Business />
+        </div>
     )
 }
