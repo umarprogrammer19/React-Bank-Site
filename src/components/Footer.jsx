@@ -32,8 +32,8 @@ const Footer = () => {
               <h3 className="font-semibold">{item.title}</h3>
               <ul className="flex flex-col gap-3 xs:gap-5 text-dimWhite mt-5">
                 {item.links.map((link, index) => (
-                  <a key={index} href={link.link} target="_blank">
-                    <li className="text-[.9rem] font-[500] hover:text-secondary">
+                  <a key={index} target="_blank">
+                    <li className="text-[.9rem] font-[500] hover:text-secondary cursor-pointer">
                       {link.name}
                     </li>
                   </a>
