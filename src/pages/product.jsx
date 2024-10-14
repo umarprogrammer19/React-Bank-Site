@@ -1,5 +1,9 @@
+import Bill from "../components/Bill";
+
 export default function Product() {
     return (
-        <h1>Product</h1>
+        <div className="container px-5 md:px-10 mx-auto">
+            <Bill />
+        </div>
     )
 }
